@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TPC</string>z
+    <string name="nome">Nome</string>
+    <string name="icone">Icon</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passC">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Registar</string>
+    <string name="hello">Bem vindo a Pagina Principal</string>
+    <string name="vazio">Preencher o campo vazio</string>
+    <string name="erro">Password não correspondem</string>
+    <string name="sucesso">Registo com sucesso do usuario </string>
+    <string name="invalid">O email não é valido</string>
+</resources>

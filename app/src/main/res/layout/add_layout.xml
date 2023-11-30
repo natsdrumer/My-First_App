@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:background="@color/design_default_color_secondary"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="21dp"
+        android:text="Add Contact"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter Name"
+        android:background="#fff"
+        android:padding="11dp"
+        android:id="@+id/edtname"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter Email"
+        android:background="#fff"
+        android:padding="11dp"
+        android:id="@+id/edtnumber"
+        android:layout_marginBottom="11dp"
+        android:inputType="textEmailAddress"
+        />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:backgroundTint="#fff"
+        android:id="@+id/btnAction"
+        android:layout_gravity="end"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/design_default_color_secondary"
+        />
+
+
+
+
+</LinearLayout>
